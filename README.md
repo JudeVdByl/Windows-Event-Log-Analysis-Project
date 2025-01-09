@@ -48,7 +48,7 @@ To demonstrate proficiency in analyzing Windows Event Logs to uncover security i
 **Objective**: Analyze `Event ID 4104` for task categories.  
 - **Task Category**: `Execute a Remote Command`
 
-![Task Category for Event ID 4104]![image](https://github.com/user-attachments/assets/d9c46f14-4a08-4ce7-9757-980085df4c1f)
+![image](https://github.com/user-attachments/assets/d9c46f14-4a08-4ce7-9757-980085df4c1f)
 
 
 **Analysis**: This scenario involved identifying the task category associated with a PowerShell session. The image demonstrates how verbose logging highlights the specific category.
@@ -61,7 +61,7 @@ To demonstrate proficiency in analyzing Windows Event Logs to uncover security i
 - **Command Used**: `wevtutil el | Measure-Object`
 - **Result**: `1071`
 
-![Log Count Using PowerShell]![image](https://github.com/user-attachments/assets/9e2bf8a4-0cf6-4e3f-bbc0-ad6f07e89ee1)
+![image](https://github.com/user-attachments/assets/9e2bf8a4-0cf6-4e3f-bbc0-ad6f07e89ee1)
 
 
 **Analysis**: Using PowerShell, I determined that the machine contains 1,071 logs. This count provides an understanding of the breadth of available logging on the system.
@@ -73,7 +73,7 @@ To demonstrate proficiency in analyzing Windows Event Logs to uncover security i
 **Objective**: Identify log names related to OpenSSH.  
 - **Log Names**: `OpenSSH/Admin`, `OpenSSH/Operational`
 
-![OpenSSH Logs]![image](https://github.com/user-attachments/assets/b68f97f6-505e-427a-a74b-3f53f73d1985)
+![image](https://github.com/user-attachments/assets/b68f97f6-505e-427a-a74b-3f53f73d1985)
 
 
 **Analysis**: Using the PowerShell command, I extracted log names associated with OpenSSH services for further analysis.
@@ -86,7 +86,7 @@ To demonstrate proficiency in analyzing Windows Event Logs to uncover security i
 - **Event ID**: `400`
 - **Date and Time**: `12/18/2020 7:50:33 AM`
 
-![PowerShell Downgrade Attack]![image](https://github.com/user-attachments/assets/1d0f7ade-1e79-4899-8c91-da6da542a6a3)
+![image](https://github.com/user-attachments/assets/1d0f7ade-1e79-4899-8c91-da6da542a6a3)
 
 
 **Analysis**: This scenario demonstrates identifying downgrade attacks by monitoring specific Event IDs. The attached image shows the log query and its results.
@@ -98,7 +98,7 @@ To demonstrate proficiency in analyzing Windows Event Logs to uncover security i
 **Objective**: Track log clearing events using Event ID `104`.  
 - **Event Record ID**: `27736`
 
-![Log Clearing Event]![image](https://github.com/user-attachments/assets/2be27d76-3d28-4ac5-a546-963ea838e82a)
+![image](https://github.com/user-attachments/assets/2be27d76-3d28-4ac5-a546-963ea838e82a)
 
 
 **Analysis**: By monitoring the `Log clear` event, I ensured visibility into log tampering activities, as shown in the image.
@@ -113,7 +113,7 @@ To demonstrate proficiency in analyzing Windows Event Logs to uncover security i
 - **Date and Time**: `8/25/2020 10:09:28 PM`
 - **Process ID**: `6620`
 
-![Emotet Malware Analysis]![image](https://github.com/user-attachments/assets/2b32ef6d-b019-4388-82e1-55f8ddfaffb4)![image](https://github.com/user-attachments/assets/65fbb1e3-05da-4a31-827b-e04e3e084b23)
+![image](https://github.com/user-attachments/assets/2b32ef6d-b019-4388-82e1-55f8ddfaffb4)![image](https://github.com/user-attachments/assets/65fbb1e3-05da-4a31-827b-e04e3e084b23)
 
 
 
@@ -127,7 +127,7 @@ To demonstrate proficiency in analyzing Windows Event Logs to uncover security i
 - **Group Security ID**: `S-1-5-32-544`
 - **Event ID**: `4799`
 
-![Group Enumeration Analysis]![image](https://github.com/user-attachments/assets/c01da7c9-cd1b-4156-897b-6b8524b8a035)
+![image](https://github.com/user-attachments/assets/c01da7c9-cd1b-4156-897b-6b8524b8a035)
 
 
 **Analysis**: This scenario involved investigating unusual activity on the system. By searching logs for specific group-related actions, I confirmed enumeration attempts, as shown in the attached image.
